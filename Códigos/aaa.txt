@@ -1,7 +1,0 @@
-git init - Criar um repositório
-git add - adicionar arquivos ao commit
-git commit - criar o commit
-git push - enviar para o github.com
-git pull - baixar do github.com
-cd - entrar em uma pasta
-git status - verifica o status atual
