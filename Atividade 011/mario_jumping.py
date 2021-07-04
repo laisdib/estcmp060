@@ -33,7 +33,7 @@ class Player(pygame.sprite.Sprite):
 
     def update(self):
         if self.is_animating:
-            self.current_sprite += 0.12
+            self.current_sprite += 0.08
 
             if self.current_sprite >= 7:
                 self.falling = True
@@ -82,7 +82,7 @@ while True:
     i = 5
     while player.is_animating:
         player.pos_y -= 1 * i
-        i -= 0.3
+        i -= 0.2
         if i < 0:
             i = 0
 
@@ -91,7 +91,7 @@ while True:
                 j = 0.2
 
                 player.pos_y += 1 * j
-                j += 0.45
+                j += 0.35
                 if j > 2:
                     j = 2
 
